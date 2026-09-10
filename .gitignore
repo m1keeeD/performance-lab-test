@@ -22,3 +22,6 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# The gson-2.14.0 library is required to run the project
+!task3/lib/gson-2.14.0.jar

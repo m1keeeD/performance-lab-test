@@ -1,5 +1,3 @@
-package task3;
-
-public class task3 {
+public class Task3 {
     
 }
