@@ -10,7 +10,9 @@ import java.util.Scanner;
 public class Task3 {
      public static void main(String[] args) {
         if (args.length != 3) {
-            System.err.println("Нужно передать три пути к файлам");
+            System.out.println("javac -cp \".;lib/*\" Task3.java");
+            System.out.println("You need to pass three file paths");
+            System.out.println("java -cp \".;lib/*\" Task3 <.json 1> <.json 2> <.json 3>");
             return;
         }
 
